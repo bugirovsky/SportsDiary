@@ -1,0 +1,12 @@
+.container{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .btn-add{
+      font-size:18px;
+  }
+
+  tr{
+      text-align: left;
+  }

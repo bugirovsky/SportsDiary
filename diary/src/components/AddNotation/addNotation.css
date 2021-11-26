@@ -1,0 +1,19 @@
+input {
+  text-align: center;
+}
+.btn {
+  background-color: #fc3;
+  color: black;
+}
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  background-color: black;
+  color: white;
+}
+
+p.message {
+  text-align: left;
+  font-size: 12px;
+  color: red;
+}

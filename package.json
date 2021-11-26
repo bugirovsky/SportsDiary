@@ -1,0 +1,23 @@
+{
+  "name": "sportsdiary-backend",
+  "version": "1.0.0",
+  "description": "Sports Nutrition Diary + Database  ",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix diary",
+    "dev": "concurrently \"npm run server\" \" npm run client\""
+  },
+  "author": "bugirovsky",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

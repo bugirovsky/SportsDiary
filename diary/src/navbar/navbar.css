@@ -1,0 +1,83 @@
+body {
+    /* background: #eeeeee; */
+    background: url(../image/bg.jpg);
+    font-family: 'Varela Round', sans-serif;
+}
+.navbar {
+    color: #fff;
+    background:#333;
+    padding: 9px 16px;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+
+.navbar .navbar-brand { /*лого*/
+    color:#fc3;
+    padding-left: 0;
+    padding-right: 50px;
+    font-size: 25px;		
+}
+.navbar .navbar-brand i { /*иконки */
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.navbar .nav > li a { /*меню*/
+    color: #fc3;
+    font-size: 18px;		
+font-weight: bold;
+line-height: 26px;
+}
+
+.navbar .nav > li a:hover, .navbar .nav > li a:focus {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(255,255,255,0.3);
+}
+.navbar .nav > li > a > i {
+    display: block;
+    text-align: center;
+}
+.navbar .dropdown-menu i {
+    font-size: 16px;
+    min-width: 22px;
+}
+.navbar .dropdown-menu .material-icons {
+    font-size: 21px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.navbar .dropdown.open > a, .navbar .dropdown.open > a:hover, .navbar .dropdown.open > a:focus {
+    color: #fff;
+    background: none !important;
+}
+.navbar .dropdown-menu {
+    border-radius: 1px;
+    border-color: #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu li a {
+    color: #fc3 !important;
+    padding: 8px 20px;
+    line-height: normal;
+}
+.navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:focus {
+    color: whitesmoke !important;
+    background: transparent !important;
+}
+.navbar .nav .active a, .navbar .nav .active a:hover, .navbar .nav .active a:focus {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(255,255,255,0.2);
+    background: transparent !important;
+}
+
+.navbar .navbar-nav .open .dropdown-menu {
+    background: #333;
+    border-radius: 1px;
+    border-color: #fc3;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .divider {
+    background-color: #fc3 !important;
+}
